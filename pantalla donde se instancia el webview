@@ -1,0 +1,31 @@
+package example.horario1;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+
+
+
+public class MainActivity2 extends Activity {
+	 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        this.setContentView(R.layout.activity_main2);
+ 
+        WebView myWebView = (WebView) this.findViewById(R.id.webView);
+ 
+        // Bind a new interface between your JavaScript and Android code
+        myWebView.addJavascriptInterface(new WebAppInterface(this), "Android");
+ 
+        // Enable JavaScript
+        WebSettings webSettings = myWebView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+ 
+        // Load HTML page
+        myWebView.loadUrl("http://www.android1.betatest.cl/Horarios/Horario1.jpg");
+ 
+    }
+ 
+}
