@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.pantalla_principal);
     }
 
-
+// que diferencia hay entre esto y el master? ninguna... ojo.. revisar el tema... hay mucho desorden
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
