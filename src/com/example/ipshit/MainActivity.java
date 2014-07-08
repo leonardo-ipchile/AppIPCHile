@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.pantalla_principal);
     }
 
-
+// esto es lo mismo del Leo, no hay cambios... ojo revisar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
