@@ -9,6 +9,7 @@ public class WebAppInterface {
  
     Context context;
  
+ // que es esto? un archivo del programa? un cuadro de dialogo? ojo.. aqui este código no debe estar... si es .java, debe estar en la carpeta correspondiente
     /**
      * Instantiate the interface and set the context
      * 
