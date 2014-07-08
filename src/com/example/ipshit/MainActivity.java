@@ -9,7 +9,7 @@ import android.view.Menu;
 import android.view.View;
 
 public class MainActivity extends Activity {
-
+// bien esta parte Leo, pero lo demás ...mmm... se supone el tuyo es el proyecto principal.. el raiz... mejórenlo para el examen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
