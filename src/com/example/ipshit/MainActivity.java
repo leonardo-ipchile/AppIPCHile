@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.pantalla_principal);
     }
 
-
+// nunca ví lo de Hector... donde esta? no hay ninguna rama... nadie lo ayudo?
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
