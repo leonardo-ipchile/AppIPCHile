@@ -5,7 +5,7 @@ private  int codigo;
 private String nombre;
 private int cantidad;
 private String descripcion;
-
+// que es esto? producto? que tiene que ver? no cambiaron nada del proyecto original... ..mmm.. puntos menos
 public producto(){}
 
 public int getCodigo() {
